@@ -17,7 +17,7 @@
                 $scope.funding.needed = $scope.funding.startingEstimate * 10;
             };
             $scope.requestFunding = function () {
-                window.alert("More customers required!!");
+                window.alert("More customers required!");
             };
             $scope.reset = function () {
                 $scope.funding.startingEstimate = 0;
